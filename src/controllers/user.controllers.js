@@ -51,7 +51,7 @@ const update = catchError(async (req, res) => {
     }
     throw error;
   }
-})
+}) 
 
 //! Exportando las funciones
 module.exports = {
